@@ -19,3 +19,7 @@ sudo service DashScanner start
 ```
 
 For the webservice side, set up [Node-Red](http://nodered.org) with an "HTTP In" node with Method:POST and URL:/dash. You can then use this node to trigger a wide variety of different functionality and services.
+
+Originally, I wrote a Node-Red node to handle the ARP capture directly. I didn't like runnin my entire Node-Red service as root, though, so I moved the functionality to it's own service.
+
+This project is inspired heavily by [Ted Benson's](https://twitter.com/edwardbenson) [excellent post on triggering on Dash ARP packets](https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8).
