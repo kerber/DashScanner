@@ -1,7 +1,7 @@
 DashScanner
 ============
 
-The DashScanner service monitors the network for ARP discovery packets and passes the source MAC on to a webservice. In conjunction with Node-Red, it makes it easy to trigger complex actions.
+The DashScanner service monitors the network for ARP discovery packets from the Amazon Dash and passes the source MAC on to a webservice. In conjunction with Node-Red, it makes it easy to trigger complex actions.
 
 To set up the service:
 
