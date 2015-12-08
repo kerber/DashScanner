@@ -11,6 +11,11 @@ To set up the service:
   * Set DASH_URL to the webservice waiting for MAC posts.
 3. Set DashScanner and dash_scanner.py to executable.
 4. Copy the DashScanner file to /etc/init.d/DashScanner
+5. Depending on your distro, you may have to run the following commands to register the new service:
+```bash
+sudo update-rc.d DashScanner defaults
+sudo update-rc.d DashScanner enable
+```
 
 Now, start the process with:
 
